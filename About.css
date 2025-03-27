@@ -1,0 +1,277 @@
+/* General Styles
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+    color: #333;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} */
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+/* Header */
+header {
+    background: #913535;
+    padding: 10px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.container {
+    align-items: center;
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* Logo */
+.logo img {
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+/* Navigation Links */
+.nav-items {
+    margin-left: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-links {
+    margin-left: 100px;
+    list-style: none;
+    display: inline-block;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background: #ff9800;
+    border-radius: 5px;
+}
+
+/* Search & Login */
+.search-login {
+    margin-left: 100px;
+}
+
+.search-login input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+}
+
+.search-login button {
+    padding: 8px 12px;
+    border: none;
+    background: #ff9800;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.search-login button:hover {
+    background: #e68900;
+}
+
+/* Mobile Menu */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+/* About Section */
+.about-container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.about-images img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Mission Section */
+.mission {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ff9800;
+    color: white;
+}
+
+.mission p {
+    font-size: 16px;
+}
+
+/* Team Section */
+.team {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-member p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    color: #ff9800;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ff9800;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background: #111;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
